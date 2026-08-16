@@ -6,8 +6,9 @@ body {
 
 header {
     background-color: rgb(54, 40, 40);
-    padding: 0 70px;
+    padding: 0 300px 0 280px;
     margin: 0;
+    font-size: 1.3em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,6 +17,27 @@ header {
 .logo {
     margin: 0;
     padding: 0;
+}
+
+.section-1 {
+    padding: 100px 300px;
+    font-size: 1.5em;
+    background-image: url(/odin-landing-page/images/hellio42-ai-generated-8933697.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.left-side {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid white;
 }
 
 a {
