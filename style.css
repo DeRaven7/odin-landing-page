@@ -43,10 +43,58 @@ header {
     justify-content: space-between;
 }
 
+.section-2 {
+    text-align: center;
+    padding: 150px 300px;
+    font-size: 1.5em;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+.card {
+    width: 250px;
+}
+
+.card img {
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.199);
+}
+
+.section-3 {
+    background-color: rgba(128, 128, 128, 0.199);
+    padding: 150px 300px;
+    font-size: 2em;
+    text-align: : justify;
+}
+
+.quote {
+    text-align: right;
+    font-weight: 700;
+}
+
 h1 {
     margin: 0;
     padding: 0;
     font-size: 3em;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding 0;
+    font-weight: 200;
+    font-style: italic;
 }
 
 img {
