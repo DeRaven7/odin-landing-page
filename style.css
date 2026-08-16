@@ -7,8 +7,12 @@ body {
 }
 
 header {
-    background-color: rgb(54, 40, 40);
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(119, 52, 52);
     padding: 0 300px 0 280px;
+    font-family: "Bitcount Grid Single", system-ui;
     margin: 0;
     font-size: 1.3em;
     display: flex;
@@ -97,15 +101,18 @@ header {
 
 .apply-left {
     font-size: 1.5em;
+    font-family: "Bitcount Grid Single", system-ui;
+
 }
 
 .apply-left p {
+    font-family: "Roboto", sans-serif;
     font-size: 0.6em;
     font-weight: 200;
 }
 
 .footer {
-    background-color: rgb(54, 40, 40);
+    background-color: rgb(119, 52, 52);
     padding: 0 300px;
     height: 80px;
     margin: 0;
@@ -121,11 +128,14 @@ h1 {
     margin: 0;
     padding: 0;
     font-size: 3em;
+    font-family: "Bitcount Grid Single", system-ui;
 }
 
 h2 {
     margin: 0;
     padding: 0;
+    font-family: "Bitcount Grid Single", system-ui;
+
 }
 
 h3 {
@@ -159,11 +169,12 @@ a:hover {
 
 button {
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 900;
+    font-family: "Bitcount Grid Single", system-ui;
     color: white;
     background-color: rgba(0, 0, 0, 0);
     border: 0.5px solid white;
-    width: 300px;
+    width: 350px;
     border-radius: 15px;
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.3)
